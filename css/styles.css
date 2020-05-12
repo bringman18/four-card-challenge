@@ -1,0 +1,176 @@
+/* font-family: 'Poppins', sans-serif; */
+
+body  {
+    width: 1440px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    background-color: hsl(0, 0%, 98%);
+    margin: 0 auto;
+}
+
+span  {
+    font-weight: 200;
+}
+
+h2  {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0px;
+}
+
+p  {
+    color: hsl(229, 6%, 66%);
+    margin-top: 0px;
+}
+
+.top-container  {
+    color: hsl(234, 12%, 34%);
+    margin: 0 auto;
+    width: 35%;
+    margin-top: 100px;
+}
+
+.card-container  {
+    position: relative;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.card  {
+    background-color: white;
+    width: 320px;
+    height: 225px;
+    margin: 30px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 3%;
+    border: none;
+    box-shadow:0 5px 10px 5px rgba(28, 95, 218, 0.15);
+}
+
+.card img  {
+    position: relative;
+    left: 250px;
+}
+
+.c1  {
+    border-top: 7px solid hsl(180, 62%, 55%);
+    position: absolute;
+    top: 115px;
+}
+
+.c2  {
+    border-top: 7px solid hsl(0, 78%, 62%);
+    margin: 25px auto;
+}
+
+.c3  {
+    border-top: 7px solid hsl(34, 97%, 64%);
+    margin: 0 auto;
+}
+
+.c4  {
+    border-top: 7px solid hsl(212, 86%, 64%);
+    position: absolute;
+    top: 115px;
+    left: 780px;
+}
+
+/* ----------START MOBILE STYLES HERE---------- */
+
+@media only screen and (max-width: 1200px){
+    body  {
+        width: 375px;
+        line-height: normal;
+        /* margin: 0 auto; */
+        text-align: center;
+        font-size: .95rem;
+        padding: 0px;
+    }
+
+    .top-container  {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .top-container p  {
+        margin: 0 35px;
+    }
+
+
+    .card-container  {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .c1  {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .c2  {
+        position: absolute;
+        left: 30px;
+        top: 300px;
+    }
+
+    .c3  {
+        position: absolute;
+        left: 30px;
+        top: 620px;
+    }
+
+    .c4  {
+        position: absolute;
+        top: 890px;
+        left: 0px;
+    }
+
+    .card-container img  {
+        position: relative;
+        top: 40px;
+    }
+
+    .foot  {
+        position: absolute;
+        bottom: -580px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
